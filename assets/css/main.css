@@ -1892,6 +1892,18 @@
 					padding: 20px;
 				}
 
+				.box.style2 .inner a.image:before {
+					background-color: #816d9a;
+					z-index: 2; 
+					opacity: 0.35;
+					content: "";
+					position: absolute;
+					top: 20px;
+					bottom: 20px;
+					left: 20px;
+					right: 20px;
+				}
+
 		.box.style3 {
 			background: #fff;
 			padding: 3em;
