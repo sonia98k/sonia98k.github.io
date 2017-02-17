@@ -1901,7 +1901,7 @@
 				.box.style2 .inner .image:before {
 					background-color: #816d9a;
 					z-index: 2; 
-					opacity: 0.35;
+					opacity: 0.8;
 					content: "";
 					position: absolute;
 					top: 20px;
