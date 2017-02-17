@@ -1328,7 +1328,7 @@
 
 		body.is-scroll {
 			background-attachment: scroll, scroll;
-			background-size: auto, 100% auto;
+			background-size: auto, cover;
 		}
 
 		body.is-loading * {
@@ -1892,7 +1892,7 @@
 					padding: 20px;
 				}
 
-				.box.style2 .inner a.image:before {
+				.box.style2 .inner .image:before {
 					background-color: #816d9a;
 					z-index: 2; 
 					opacity: 0.35;
@@ -2457,6 +2457,13 @@
 					padding: 0;
 					max-width: 250px;
 					margin: 0 auto 20px auto;
+				}
+
+				.box.style2 .inner .image:before {
+					top: 0; 
+					bottom: 0; 
+					right: 0; 
+					left: 0; 
 				}
 
 				.box.style3 {
